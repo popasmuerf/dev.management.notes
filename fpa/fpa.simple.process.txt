@@ -1,0 +1,65 @@
+http://alvinalexander.com/FunctionPoints/node12.shtml
+
+A simple five step counting process
+==========================================
+
+WE need to start at a high level.  There are 
+five steps in the process of counting FPs.  They are:
+-------------------------------------------------------
+
+1.  Determine the type of cost    
+2.  Identify the scope and boundary of the count
+3.  Determine the unadjusted FP count
+4.  Determine the Value Adjustment Factor
+5.  Calculate the Adjusted FP Count
+
+ 
+As an example of what FPs can do fo you, my company can now tacke projects
+on a fixe-priced basis.  This gives you a significant advantage against
+your competition, because most people think it is impossible to build software
+on a fixed-priced basis.
+
+
+
+
+Five standard Funcions
+============================================================
+In counting FPs there are five standard "functions" that you count
+The first two of these are called Data Functions, and
+last three are called Transaction Functions, and the last
+three are called Transaction Functions.  The names of these 
+functions are listed below:
+
+1.  Data Functions
+    1.  Internal logical files
+    2.  External logical files
+
+2.  Transactional Functions
+    1.  External Inputs
+    2.  Exteranl Outputs
+    3.  External Queries/Inquiries
+    
+    
+Details on the Five Data and Transactional Functions
+======================================================
+
+Important terms and definitions used in describing the
+five functions
+--------------------------------------------------------
+    *   User identifiable
+        -   Processes and data that are agreed upon 
+            and understood by, bo the users and software developers
+    *   Control information
+        -   Specifies what, when, or how data is to be processed
+    *   Elementary process
+        -   An elementary process is the smallest unit of activity that is
+            meaningful to the user.  An elementary process must be self-contained
+            and leave the business of the application being counted in a
+            consistent state.
+    *   Data Element Type, or DET
+        -   A data element type is a unique, user recognizable, non-repeated field.
+            This definition applies to both analyses of data functions and 
+    *   Record Element Type, or RET
+    
+    
+

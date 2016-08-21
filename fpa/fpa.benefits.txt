@@ -1,0 +1,21 @@
+http://alvinalexander.com/FunctionPoints/node7.shtml
+
+The benefits of Function Point Analysis
+==========================================
+
+1. The ability to accurately estimate:
+    1.  Project cost
+    2.  Project duration
+    3.  Project staffing size
+    
+2.  An understanding of other important metrics, such as:
+    1.  Project defect rate
+    2.  Cost per FP
+    3.  FP's per hour (What I refere to as "velocity")
+    4.  The productivity benefits of using new or different tools
+    
+ 
+As an example of what FPs can do fo you, my company can now tacke projects
+on a fixe-priced basis.  This gives you a significant advantage against
+your competition, because most people think it is impossible to build software
+on a fixed-priced basis.
