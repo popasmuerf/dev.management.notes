@@ -1,0 +1,40 @@
+http://www.tutorialspoint.com/estimation_techniques/estimation_techniques_fp_counting_process.htm
+
+
+FP counting process involves the following steps
+====================================================
+	1.	Determine the type of count
+	2.	Determine the boundary of the count
+	3.	Indentify each Elementary Process(EP) required
+		the user.
+	4.	Determine the unique EPs
+	5.	Measure data functions
+	6.	Measure transactional functions
+	7.	Calculate functional size(unadjusted function point
+		count)
+	8.	Determine Value Adjustment Factor(VAF)
+	9.	Calculate adjusted function point count
+
+
+Note: General System Characteristics (GCSs)
+are made optional CPM 4.3.2 and 
+moved to Appendix.  Hence, Step 8 and Step 9
+can be skipped
+==========================================
+
+
+Development Function Point Count
+==========================================
+Functions can be counted at all phases
+of a development project from
+requirement to implemetation stage.
+This type of count is associated with new
+development work and may include prototypes,
+which, which may have been required as
+temporary solution, which
+supports the conversion effort.  This type
+of count is called a basline function point 
+count.
+
+
+

@@ -1,0 +1,129 @@
+http://www.tutorialspoint.com/estimation_techniques/estimation_techniques_function_points.htm
+
+
+A Function  Point(FP)  is a unit of measurement to express the
+amount of business functionality, an information system (as a product)
+provides to a user.  FPs measures software size roughly.  Thy are
+widely accepted as an industry standard for functional sizing.
+
+
+
+For sizing software based on FP, several recogonized standards and/or
+public specifications have come into existence.  As of 2013:
+
+
+ISO standards
+===========================================
+	
+
+COSMIC − ISO/IEC 19761:2011 Software engineering. A functional size measurement method.
+
+FiSMA − ISO/IEC 29881:2008 Information technology - Software and systems engineering - FiSMA 1.1 functional size measurement method.
+
+IFPUG − ISO/IEC 20926:2009 Software and systems engineering - Software measurement - IFPUG functional size measurement method.
+
+Mark-II − ISO/IEC 20968:2002 Software engineering - Ml II Function Point Analysis - Counting Practices Manual.
+
+NESMA − ISO/IEC 24570:2005 Software engineering - NESMA function size measurement method version 2.1 - Definitions and counting guidelines for the application of Function Point Analysis.
+
+
+
+Elementary Process(EP)
+============================================
+Elementary Process is the smallest unit of functiional user
+requirement that :
+
+	*	Is meaningful to the user
+	*	Constitutes a complete transaction
+	*	Is self-contained and leaves the business of 
+		the appliction being counted in a consistent
+		state.
+
+Functions
+============================================
+	*	Data functions
+		-	Internal Logical Files
+		-	External Interface Files
+
+
+
+External Interface Files(EIF)
+============================================
+EIF is a user identifiable group of logically
+related data or control information that is used
+by the application for reference 
+purposes only.  the data resides entirely outside
+the appliction boundary and is maintained in an ILF
+by another application.  An EIF has the inherent meaning that is
+externally maintained, an inteface has to be developed to
+get the data from the file.
+
+
+Transactions Functions
+=============================================
+There are three types of transaction functions
+
+	*	External Inputs
+	*	External Outputs
+	*	External Inquiries
+
+
+
+External Inputs:
+===================================
+EIs is a transacton function in which 
+Data goes "into" te application from
+outside the boundary to inside.  This data is 
+coming external to the application.
+
+
+Definition of RETs, DETs, FTRs
+===================================
+*RET = Record Element Type
+	-	A record element type (RET) is the largest user
+		identifiable subgroup of elements within an
+		ILF or an EIF.  It is best to look at logical
+		groupings of data to help identify them.
+
+*FTR = File Type Referenced
+	-	File Type Referenced(FTR) is the largest user 			identifiable subgroup within the EI, EO, or
+		EQ that is reference
+
+
+*DET = Data Element Type 
+	-	Data Element Type(DET) is the data subgroup with a FTR
+		They are unique and user identifiable withn the 
+		EI, EO, or EQ that is referenced to 
+
+
+
+
+
+
+	*	Data may come from a dtat input screen 
+		or another application
+	*	An EI is how an application gets information
+	*	Data can be either control information or business
+		information
+	*	Data may be used to maintain one or more internal
+		Logical Files
+	*	If the data is control information, it does not have to
+		update an ILF
+
+External Outputs:
+=====================================
+Exteranl Output(EO) is a transaction function in which data
+comes "out" of the system.
+Additionally, an EO may update an ILF.  The data creates reports
+or output files sent to other applications.
+
+External Inquiries
+=====================================
+External Inquiry(EQ) is a transaction function with both
+input and outpu components that result
+in data retrieval.
+
+
+
+
+
