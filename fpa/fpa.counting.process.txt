@@ -37,4 +37,255 @@ of count is called a basline function point
 count.
 
 
+Application Function Point Count
+==========================================
+Appliation counts are calculated as the function points
+delivered, and excluded any conversion
+effort(prototypes or temporary solutions)
+
+
+Enhancement Function Point Count
+===========================================
+When changes are made to software after production,
+they are considered as enhancements. To size such 
+enhancement projects, theFunction Point Count gets
+added, changed, or deleted in the application.
+
+Determine the Boundary of the Count
+============================================
+The boundary indicates the border between
+the application being measured and teh 
+external applicatons or the user domain
+
+
+How do we determine the boundary ?
+--------------------------------------------
+	1.	The purpose of the function
+		point count
+	2.	Scope of the application being
+		measured
+	3.	How and which applications 
+		maintain what data
+	4.	The business areas that
+		support the applications
+
+
+Identify each elementary process required b the user
+===================================================
+Compose and/or decompose the functional user requirements into the
+smallest unit  of the activity, which satisfies all 
+of the following criteria.
+
+	*	Is meaningful to the user
+	*	Constitutes a complete transaction
+	*	Is self-contained
+	*	leaves the business of the application
+		being counted in a consistent state
+
+Determine the Unique Elementary Process
+====================================================
+Comparing two EPs already identified, count them as one EP(same EP)
+if they
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
